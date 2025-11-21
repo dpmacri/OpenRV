@@ -19,6 +19,12 @@ Please refer to the NDI&reg; SDK license agreement.
 
 ---------------------------------------------------------------------
 
+Apple&reg; ProRes SDK Support for Linux & Windows (Optional)
+
+The Apple&reg; ProRes SDK is NOT provided by Open RV. The SDK can be obtained by emailing ProRes@apple.com and following the process.<br>
+
+---------------------------------------------------------------------
+
 
 See [Notice.txt](Notice.txt) for license information of other open-source third-party components used by Open RV.
 
