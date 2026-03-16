@@ -31,7 +31,7 @@ static int getNumProresThreads()
     static int proresDecoderThreads = -1;
     if (proresDecoderThreads == -1)
     {
-        const char* evPrefValue = getenv("ORV_PREF_GLOBAL_PRORES_DECODER_THREADS");
+        const char* evPrefValue = getenv("RV_PREF_GLOBAL_PRORES_DECODER_THREADS");
         if (evPrefValue && atoi(evPrefValue) >= 0)
         {
             proresDecoderThreads = atoi(evPrefValue);

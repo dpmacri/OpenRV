@@ -225,7 +225,7 @@ Example:
 ```
 
 By default, the ProRes decode via the SDK will use all available system threads.  To use a fixed maximum number of threads, set the
-environment variable `ORV_PREF_GLOBAL_PRORES_DECODER_THREADS` to a positive value.
+environment variable `RV_PREF_GLOBAL_PRORES_DECODER_THREADS` to a positive value.
 
 On Apple Silicon machines, OpenRV supports hardware decoding through Apple's VideoToolbox framework. This feature is enabled by default
 but can be controlled using the `-DRV_FFMPEG_USE_VIDEOTOOLBOX` option. Set this option to `ON` to enable or `OFF` to disable VideoToolbox
