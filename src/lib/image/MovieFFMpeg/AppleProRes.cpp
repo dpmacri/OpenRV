@@ -114,9 +114,9 @@ int AppleProResContext::decode_frame(AVCodecContext* avctx, AVFrame* videoFrame,
 
     // Now decode the frame
     // PRDecodeFrame returns the number of bytes consumed from the compressed
-    // buffer, which may be less than videoPacket->size because the container
-    // (MOV, MXF, MKV, etc.) can report a larger sample size than the actual
-    // ProRes frame.  A negative return value indicates a decode error.
+    // buffer, which may be less than videoPacket->size because the container
+    // (MOV, MXF, MKV, etc.) can report a larger sample size than the actual
+    // ProRes frame.  A negative return value indicates a decode error.
     int bytesDecoded = PRDecodeFrame(prdecoder, videoPacket->data, videoPacket->size, &prpixbuf, kPRFullSize, 0);
     if (bytesDecoded <= 0)
     {
